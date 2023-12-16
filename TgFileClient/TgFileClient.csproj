@@ -9,9 +9,9 @@
         <Title>Telegram Bot File Client</Title>
         <Authors>Povanq</Authors>
         <PackageIcon>tl.png</PackageIcon>
-        <AssemblyVersion>1.0.1</AssemblyVersion>
-        <FileVersion>1.0.1</FileVersion>
-        <Version>1.0.1</Version>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
+        <Version>1.0.2</Version>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
