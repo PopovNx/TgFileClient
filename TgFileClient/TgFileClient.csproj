@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Telegram Bot File Client</Title>
+        <Authors>Povanq</Authors>
+        <PackageIcon>tl.png</PackageIcon>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <FileVersion>1.0.1</FileVersion>
+        <Version>1.0.1</Version>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\TgFileClient.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\TgFileClient.xml</DocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="icon\tl.png" Pack="true" PackagePath="\"/>
+        <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
